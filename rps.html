@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+<meta charset="UTF-8">
+<link rel = "stylesheet" href = "rps.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+
+</head>
+
+
+<body>
+    
+<h1> WELCOME!! LET'S PLAY </h1>
+<h2> Rock Papers Scissors </h2>
+<h2> What's your pick</h2>
+
+<br>
+<div class = "boxi">
+   <button class = "box" onclick="play('ROCK')" >
+     <img src = "images/rock.jfif" alt = "Rock">
+   </button>
+ <button class = "box" onclick="play('PAPER')">
+   <img src = "images/paper.png" alt = "Paper">
+ </button>
+ <button class = "box" onclick="play('SCISSORS')">
+   <img src = "images/scissor.png" alt="Scissors">
+ </button>
+
+
+</div>
+
+<h2 id="result">Choose your move!</h2>
+<h3 id="score">Player: 0 | Computer: 0</h3>
+
+
+<button id="reset" onclick="reset()"> Reset score</button>
+
+  <script src="rps.js"></script>
+</body>
+
+</html>
